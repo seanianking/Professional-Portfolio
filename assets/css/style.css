@@ -1,0 +1,93 @@
+body {
+    background-color: lightgray;
+}
+img {
+    width: 200px;
+    height: 200ps;
+    float: left;
+    padding-right: 20px;
+}
+
+h2, h3 {
+    Color: teal;
+    left: 25px;
+    position: relative;
+    font-size: 25px;
+
+}
+#name {
+    background-color: teal;
+    color: #ffffff;
+    float: left;
+    padding: 20px;
+    width: 150px;
+    left: 190px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+#about{
+    float: right;
+    text-align: center;
+    margin: 25px;
+
+}
+#portfolio {
+    float: right;
+    text-align: center;
+    margin: 25px;
+
+}
+
+#contact{
+    float: right;
+    text-align: center;
+    margin: 25px;
+    
+}
+header {
+    width: 100%;
+    margin-bottom: 25px;
+    position: absolute;
+    top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    top: 150px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #ffffff;
+}
+input {
+    width: 960px;
+    margin-bottom: 15px;
+}
+textarea {
+    margin-bottom: 15px;
+}
+#submit {
+    background-color: teal;
+    color: #ffffff;
+    padding: 20px;
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+.portfolio{
+    width: 180px;
+    height: 180px;
+    float: left;
+    position: relative;
+}
