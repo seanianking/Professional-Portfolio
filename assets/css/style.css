@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    margin-bottom: 90px;
 }
 img {
     width: 200px;
@@ -13,7 +14,13 @@ h2, h3 {
     left: 25px;
     position: relative;
     font-size: 25px;
+    margin-bottom: 25px;
 
+}
+a{
+    font-size: 16pt;
+    text-decoration: none;
+    color: lightslategrey;
 }
 #name {
     background-color: teal;
@@ -61,13 +68,18 @@ header {
     top: 150px;
     background-color: #ffffff;
     padding: 20px;
+    min-height: calc(100vh-70px);
+    margin-bottom: 70px;
 }
 footer{
     width: 100%;
     position: absolute;
     bottom: 0px;
-    background-color: #ffffff;
-}
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    border-top: 10px teal solid;
+}   
 input {
     width: 960px;
     margin-bottom: 15px;
@@ -90,4 +102,29 @@ textarea {
     height: 180px;
     float: left;
     position: relative;
+}
+
+.gallery {
+    height: 250px;
+    width: 33.33%;
+    overflow: auto;
+    position: relative;
+    display: inline-flex;
+    bottom: 50px;
+}
+.link {
+    background-color: teal;
+    color: #ffffff;
+    width: 100%;
+    z-index: 90;
+    position: absolute;
+    bottom:20px;
+    padding: 15px;
+    text-align: center;
+}
+.photo {
+    float: left;
+    object-fit: fill;
+    width: 320px;
+   
 }
